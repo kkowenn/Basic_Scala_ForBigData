@@ -1,4 +1,4 @@
-# plot graph with scala
+# plot graph with scala (pls using excel instead)
 
 ## sbt project compiled with Scala 3
 
