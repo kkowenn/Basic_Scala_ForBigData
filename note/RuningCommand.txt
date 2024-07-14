@@ -1,0 +1,4 @@
+cd /Users/kritsadakruapat/Desktop/Lab/scala/scala
+sbt update
+sbt compile
+sbt "runMain RatingAnalysis"
