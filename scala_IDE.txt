@@ -1,0 +1,41 @@
+an Integrated Development Environment (IDE)
+like IntelliJ IDEA or another code editor configured for Scala development.
+The menu is asking:
+
+1. **Empty file**: Creates a new file with no predefined content.
+You can write any kind of code or data into this file.
+
+2. **Class**: Creates a new Scala class.
+A class is a blueprint for creating objects (instances),
+containing fields and methods to define the behavior and state of the objects.
+
+3. **Case Class**: Creates a new Scala case class.
+Case classes are a special type of class in Scala that are immutable by default
+and provide pattern matching capabilities. They are often used to model immutable data.
+
+4. **Object**: Creates a new Scala object.
+An object is a singleton instance, meaning there is only one instance of it in the JVM.
+Objects are used for defining utility methods, constants,
+or to act as an entry point for the program (similar to static methods in Java).
+
+5. **Trait**: Creates a new Scala trait.
+Traits are like interfaces in Java but can also contain concrete methods and fields.
+They are used to define reusable behaviors that can be mixed into classes.
+
+6. **Package Object**: Creates a new package object.
+Package objects are used to define methods, fields,
+or type aliases that can be shared across multiple classes and traits in a package.
+
+7. **Worksheet**: Creates a new Scala worksheet.
+Worksheets are special files in Scala IDEs where you can write
+and execute Scala code interactively. They are great for quick experimentation and
+learning.
+
+8. **Scala Script (Ammonite or Scala CLI)**: Creates a new Scala script file,
+which can be executed using Ammonite or Scala CLI.
+Ammonite is a REPL (Read-Eval-Print Loop) for Scala,
+and Scala CLI is a command-line tool to compile and run Scala code.
+This option is used for scripting purposes,
+allowing for quick execution of Scala code without the need for a full project setup.
+
+9. **Enum**: Creates a new enumeration in Scala. Enums are used to define a set of named values, which can be used as constants. This is useful for defining a collection of related constants, like days of the week or directions.
