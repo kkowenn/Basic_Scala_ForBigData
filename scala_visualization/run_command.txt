@@ -1,0 +1,4 @@
+cd thePath
+sbt update
+sbt compile
+sbt "runMain RatingAnalysis"
